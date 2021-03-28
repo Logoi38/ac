@@ -1,0 +1,37 @@
+.navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #09090A;
+  color: #fff;
+  width: 929px;
+  font: 1.5em "Trebuchet MS", sans-serif;
+}
+.navigation a, .navigation span {
+  display: block;
+  padding: 4px 10px;
+  color: #fff;
+  text-decoration: none;
+  background: #000 url(menu-item.JPG) left bottom no-repeat;
+}
+.navigation .toggleSubMenu a, .navigation .toggleSubMenu span {
+  background-image: url(menu-item-deroule.JPG);
+}
+.navigation .open a, .navigation .open span {
+  background-image: url(menu-item-enroule.JPG);
+}
+.navigation a:hover, .navigation a:focus, .navigation a:active {
+  text-decoration: underline;
+}
+.navigation .subMenu {
+  font-size: .8em;
+  background: #121215 ;
+  font-size: .9em;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #666;
+}
+.navigation ul.subMenu a {
+  background: none;
+  padding: 3px 20px;
+}
